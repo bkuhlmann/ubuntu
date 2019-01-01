@@ -1,3 +1,16 @@
+# 3.2.0 (2019-01-01)
+
+- Fixed Circle CI cache for Ruby version.
+- Fixed Markdown ordered list numbering.
+- Added Circle CI Bundler cache.
+- Updated Semantic Versioning links to be HTTPS.
+- Updated project changes to use semantic versions.
+- Updated to Contributor Covenant Code of Conduct 1.4.1.
+- Updated to Git Cop 3.0.0.
+- Updated to Ruby 2.5.2.
+- Updated to Ruby 2.5.3.
+- Updated to Ruby 2.6.0.
+
 # 3.1.0 (2018-04-01)
 
 - Updated README license information.
