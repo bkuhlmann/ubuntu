@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ubuntu.png" alt="Ubuntu Icon"/>
+</p>
+
 # Ubuntu
 
 [![Circle CI Status](https://circleci.com/gh/bkuhlmann/ubuntu.svg?style=svg)](https://circleci.com/gh/bkuhlmann/ubuntu)
