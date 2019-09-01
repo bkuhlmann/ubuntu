@@ -1,3 +1,7 @@
+# 3.3.3 (2019-09-01)
+
+- Updated to Ruby 2.6.4.
+
 # 3.3.2 (2019-06-01)
 
 - Updated contributing documentation.
