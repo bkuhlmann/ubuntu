@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ubuntu.png" alt="Ubuntu Icon"/>
+  <img src="https://www.alchemists.io/images/projects/ubuntu/icon.png" alt="Ubuntu Icon"/>
 </p>
 
 # Ubuntu
