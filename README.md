@@ -15,18 +15,20 @@ server stack.
 
 <!-- Tocer[start]: Auto-generated, don't remove. -->
 
-# Table of Contents
+## Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Versioning](#versioning)
-- [Code of Conduct](#code-of-conduct)
-- [Contributions](#contributions)
-- [License](#license)
-- [History](#history)
-- [Credits](#credits)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Setup](#setup)
+    - [Production](#production)
+    - [Development](#development)
+  - [Usage](#usage)
+  - [Versioning](#versioning)
+  - [Code of Conduct](#code-of-conduct)
+  - [Contributions](#contributions)
+  - [License](#license)
+  - [History](#history)
+  - [Credits](#credits)
 
 <!-- Tocer[finish]: Auto-generated, don't remove. -->
 
@@ -41,19 +43,22 @@ server stack.
 
 ## Setup
 
-Open a terminal window and execute one of the following setup sequences depending on your version
-preference:
+### Production
 
-Current Version (stable):
+To install, run:
 
     git clone https://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
     git checkout 3.3.4
 
-Master Version (unstable):
+### Development
+
+To contribute, run:
 
     git clone https://github.com/bkuhlmann/ubuntu.git
     cd ubuntu
+
+## Usage
 
 Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
 
@@ -64,7 +69,7 @@ Edit the setup.sh file and adjust the settings as you see fit, namely the follow
 
 You may want to tweak the `*.sh` files in the scripts folder as well.
 
-## Usage
+Run the following to use on your server:
 
 1. `ssh` to your server or VM.
 1. Switch to the root user.
