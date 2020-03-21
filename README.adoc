@@ -1,0 +1,98 @@
+:toc: macro
+:toclevels: 5
+:figure-caption!:
+
+= Ubuntu
+
+[link=https://circleci.com/gh/bkuhlmann/ubuntu]
+image::https://circleci.com/gh/bkuhlmann/ubuntu.svg?style=svg[Circle CI Status]
+
+This project contains a set of shell scripts for installing and configuring a fresh Ubuntu operating
+system. It is assumed that the base Ubuntu install is a _server_ install and not a _client_ install.
+
+toc::[]
+
+== Features
+
+* A configurable shell script for applying default settings and installing necessary software
+packages.
+
+== Requirements
+
+. http://www.ubuntu.com[Ubuntu]
+
+== Setup
+
+=== Production
+
+To install, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/ubuntu.git
+cd ubuntu
+git checkout 3.3.4
+----
+
+=== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/ubuntu.git
+cd ubuntu
+----
+
+== Usage
+
+Edit the setup.sh file and adjust the settings as you see fit, namely the following variables:
+
+* SERVER_IP
+* SERVER_HOSTNAME
+* USER_LOGIN
+* USER_PASS
+
+You may want to tweak the `.sh` files in the scripts folder as well.
+
+Run the following to use on your server:
+
+. `ssh` to your server or VM.
+. Switch to the root user.
+. Create the a /root/.ssh/authorized_keys file with your public key.
+. `chmod -R 600 /root/.ssh`.
+. `mkdir /root/ubuntu`.
+. Copy the files of this project to the /root/ubuntu folder. Example:
+  `scp -r - root@10.0.1.50:/root/ubuntu`.
+. Run the `/root/ubuntu/bin/run` script in the root of this project.
+. Delete the `/root/ubuntu` folder.
+. Delete the `/root/.ssh` folder.
+
+== Versioning
+
+Read link:https://semver.org[Semantic Versioning] for details. Briefly, it means:
+
+* Major (X.y.z) - Incremented for any backwards incompatible public API changes.
+* Minor (x.Y.z) - Incremented for new, backwards compatible, public API enhancements/fixes.
+* Patch (x.y.Z) - Incremented for small, backwards compatible, bug fixes.
+
+== Code of Conduct
+
+Please note that this project is released with a link:CODE_OF_CONDUCT.adoc[CODE OF CONDUCT]. By
+participating in this project you agree to abide by its terms.
+
+== Contributions
+
+Read link:CONTRIBUTING.adoc[CONTRIBUTING] for details.
+
+== License
+
+Read link:LICENSE.adoc[LICENSE] for details.
+
+== History
+
+Read link:CHANGES.adoc[CHANGES] for details.
+
+== Credits
+
+Engineered by link:https://www.alchemists.io/team/brooke_kuhlmann.html[Brooke Kuhlmann].
