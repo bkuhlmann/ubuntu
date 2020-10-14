@@ -23,8 +23,6 @@ packages.
 
 == Setup
 
-=== Production
-
 To install, run:
 
 [source,bash]
@@ -32,16 +30,6 @@ To install, run:
 git clone https://github.com/bkuhlmann/ubuntu.git
 cd ubuntu
 git checkout 3.4.1
-----
-
-=== Development
-
-To contribute, run:
-
-[source,bash]
-----
-git clone https://github.com/bkuhlmann/ubuntu.git
-cd ubuntu
 ----
 
 == Usage
@@ -67,6 +55,16 @@ Run the following to use on your server:
 . Run the `/root/ubuntu/bin/run` script in the root of this project.
 . Delete the `/root/ubuntu` folder.
 . Delete the `/root/.ssh` folder.
+
+== Development
+
+To contribute, run:
+
+[source,bash]
+----
+git clone https://github.com/bkuhlmann/ubuntu.git
+cd ubuntu
+----
 
 == Versioning
 
