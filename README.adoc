@@ -29,7 +29,7 @@ To install, run:
 ----
 git clone https://github.com/bkuhlmann/ubuntu.git
 cd ubuntu
-git checkout 3.4.1
+git checkout 3.5.0
 ----
 
 == Usage
