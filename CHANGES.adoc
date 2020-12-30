@@ -1,5 +1,12 @@
 = Changes
 
+== 4.0.0 (2020-12-30)
+
+* Fixed Circle CI configuration for Bundler config path - Brooke Kuhlmann
+* Added Circle CI explicit Bundle install configuration - Brooke Kuhlmann
+* Updated to Git Lint 2.0.0 - Brooke Kuhlmann
+* Updated to Ruby 3.0.0 - Brooke Kuhlmann
+
 == 3.5.0 (2020-11-14)
 
 * Updated project documentation to conform to Rubysmith template
